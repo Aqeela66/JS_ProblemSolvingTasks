@@ -1,0 +1,22 @@
+
+body{
+    background-color: rgb(215, 211, 223);
+}
+  h2{
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  button{
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+      background-color: aqua;
+      border: 3px solid green; 
+      padding: 15px 32px;
+      text-align: center;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 12px;
+      position: relative;
+      left: 45%;
+      top:50%;
+  }
