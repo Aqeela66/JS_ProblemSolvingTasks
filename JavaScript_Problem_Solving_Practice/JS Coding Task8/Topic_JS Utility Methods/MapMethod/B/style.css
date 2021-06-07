@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    z-index: -1;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.705), rgb(189, 170, 187));
+}
+
+h1 {
+    font-family: 'Limelight', cursive;
+    text-align: center;
+    color: rgba(255, 72, 16, 0.897);
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        width: 100%;
+    }
+}
