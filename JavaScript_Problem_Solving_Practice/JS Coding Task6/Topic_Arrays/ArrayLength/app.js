@@ -4,3 +4,4 @@
 let games=["cricket","volleyball","golf","carom_billiards","baseball"]; //Array
 console.log(games);
 console.log(games.length);
+console.log(games.size);

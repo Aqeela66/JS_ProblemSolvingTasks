@@ -1,0 +1,40 @@
+body {
+    background-color: #dfeff0;
+}
+
+h1 {
+    padding: 20px;
+    margin: 40px 30px;
+    text-align: left;
+    font-family: 'Abril Fatface', cursive;
+}
+label {
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+}
+.button {
+    text-align: center;
+    width: 10%;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px 1px forestgreen ;
+}
+button:focus{
+    outline: gainsboro;
+}
+button:hover{
+    background-color: gold;
+    color: hotpink;
+}
+button:active{
+    box-shadow: none;
+}

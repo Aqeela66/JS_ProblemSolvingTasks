@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.705), rgba(202, 209, 138, 0.699));
+}
+
+h1 {
+    font-family: 'Limelight', cursive;
+    text-align: center;
+    color: rgba(255, 16, 243, 0.897);
+}
+.header{
+    font-size: large;
+}
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px 1px forestgreen ;
+}
+button:focus{
+    outline: gainsboro;
+}
+button:hover{
+    background-color: gold;
+    color: hotpink;
+}
+button:active{
+    box-shadow: none;
+}
+@media screen and (max-width: 500px) {
+    body {
+        width: 100%;
+    }
+}
